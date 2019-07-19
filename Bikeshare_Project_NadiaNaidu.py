@@ -41,7 +41,7 @@ def get_filters():
     while choice == 'month' or choice == 'both':
         month_gf = input("To filter data by month, please enter a single month from either January, February, March, April, May or June: ").lower()
         if month_gf not in ['january', 'february', 'march', 'april', 'may', 'june']:
-            print("This is not an appropriate month - try again!")
+            print("This is not an appropriate month,  try again!")
         else:
             break
 
