@@ -56,7 +56,7 @@ def get_filters():
         else:
             break
 
-    # turning the values obtained into variables that can be used locslly or globally in other functions to be created.
+    # turning the values obtained into variables that can be used locally or globally in other functions to be created.
 
     global city
     city = city_gf
