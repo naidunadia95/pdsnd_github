@@ -25,7 +25,7 @@ def get_filters():
     while True:
         city_gf = input("Please enter Chicago, New York City or Washington: ").lower()
         if city_gf not in ('chicago', 'new york city', 'washington'):
-            print("This is not an appropriate city - try again!")
+            print("This is not an appropriate city, please try again!")
         else:
             break
 
